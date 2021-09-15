@@ -12,6 +12,7 @@ Hvilke sider:
 Hva skal med:
 
 * Wireframe av sidene
+  * [Figma](https://www.figma.com/file/ZZtAgdxhk6hRYOOgcyLU8Z/HTML-1?node-id=0%3A1)
   * Som pdf
 * HTML-kode for sidene, uten CSS
   * Som zip
