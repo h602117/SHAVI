@@ -7,7 +7,7 @@ Hvilke sider:
 * Fremside
 * Utlånssteder
 * Kjøretøy
-* Medlemsskap
+* Medlemskap
 
 Hva skal med:
 
