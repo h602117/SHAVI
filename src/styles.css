@@ -1,0 +1,15 @@
+:root {
+    --fg: #eeeeee;
+    --bg: #222222;
+    --gr: #7ddf64;
+}
+
+/*
+ * Hvordan bruke variabler i css:
+ *
+ * Eksempel, farge paragraf
+ *
+ * p {
+ *   color: var(--fg);
+ * }
+ */
