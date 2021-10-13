@@ -1,7 +1,8 @@
 :root {
-    --fg: #eeeeee;
-    --bg: #222222;
-    --gr: #7ddf64;
+  --foreground: #eeeeee;
+  --background: #222222;
+  --secondary-background: #333333;
+  --accent-color: #7ddf64;
 }
 
 /*
