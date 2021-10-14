@@ -1,16 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
 :root {
   --foreground: #eeeeee;
   --background: #222222;
   --secondary-background: #333333;
   --accent-color: #7ddf64;
+  --header-height: 8rem;
 }
 
-/*
- * Hvordan bruke variabler i css:
- *
- * Eksempel, farge paragraf
- *
- * p {
- *   color: var(--foreground);
- * }
- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+header {
+  width: 100%;
+  height: var(--header-height);
+  padding: 0 5rem;
+  border-bottom: 2px solid var(--accent-color);
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+}
+
+header nav {
+  width: 30%;
+  min-width: 34rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header a {
+  color: var(--foreground);
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+main {
+  width: 100%;
+  height: calc(100% - var(--header-height));
+}
