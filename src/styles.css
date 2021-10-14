@@ -11,6 +11,6 @@
  * Eksempel, farge paragraf
  *
  * p {
- *   color: var(--fg);
+ *   color: var(--foreground);
  * }
  */
