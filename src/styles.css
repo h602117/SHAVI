@@ -54,6 +54,11 @@ header a {
   font-size: 1.8rem;
 }
 
+header .nav-sep {
+  color: var(--accent-color);
+  font-size: 2rem;
+}
+
 main {
   width: 100%;
   height: calc(100% - var(--header-height));
