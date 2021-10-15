@@ -58,3 +58,11 @@ main {
   width: 100%;
   height: calc(100% - var(--header-height));
 }
+
+a {
+  transition: color .5s;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
