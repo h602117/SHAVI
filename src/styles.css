@@ -64,6 +64,9 @@ main {
   width: 100%;
   height: calc(100% - var(--header-height));
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8rem 5rem;
 }
 
 a {
@@ -74,12 +77,49 @@ a:hover {
   color: var(--accent-color);
 }
 
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+section {
+  background-color: var(--secondary-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 3rem;
+  border: 2px solid var(--accent-color);
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  font-size: 2rem;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
 /* FREMSIDE */
 
 #hero-wrapper {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  padding: 0;
 }
 
 #hero-text {
@@ -101,5 +141,34 @@ a:hover {
 }
 
 .hero-image {
+  width: unset;
   height: 100%;
+}
+
+/* UTLÅNSSTEDER */
+
+.mapouter {
+  width: 100%;
+  height: 40%;
+}
+
+.gmap_canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+/* MEDLEMSKAP */
+
+.price {
+  font-size: 5rem;
+}
+
+.description {
+  width: 70%;
+  font-size: 1.8rem;
 }
