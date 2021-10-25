@@ -1,16 +1,186 @@
-:root {
-  --foreground: #eeeeee;
-  --background: #222222;
-  --secondary-background: #333333;
-  --accent-color: #7ddf64;
+*{
+  text-decoration:none;
+  color:#EEEEEE;
+  padding:0;
+  margin:0;
+  font-family:"Times New Roman", Times, serif;
+  font-weight:lighter;
+  
+}
+body{
+  background-color:#222222;
+}
+
+header h1{
+  
+  position:absolute;
+  padding-top:4px;
+  padding-left:30px;
+}
+.gaffateip{
+  position:absolute;
+  font-size:1px;
+  padding-top:50px;
+  padding-right:500000%;
+  margin:auto;
+
+  border-bottom:#7DDF64 1px solid;
+}
+.topbox .link1 a, .link2 a, .link3 a{
+  padding: 5px;
+  font-size:130%;
+}
+.link1 a :hover,.link2 a :hover,.link3 a :hover{
+  color:#7DDF64;
+}
+.top{
+  position:absolute;
+}
+.topbox{
+  
+  position: absolute;
+  right:1.2%;
+  top:1.2%;
+  display:flex;
+  justify-content: flex-end; 
+}
+@media(min-width:768px){
+  .MedlemskapOverordnetFlexBox, .UtlånsstederOverordnetFlexBox, .KjøretøyOverordnetFlexBox{
+      display:flex;
+      
+      flex-direction: row;
+     
+  }
+}
+.MedlemskapOverordnetFlexBox h1{
+  font-size:170%;
+  padding-top:4%;
+}
+.MedlemskapOverordnetFlexBox h2{
+  font-size:270%;
+  padding-top:60%;
+}
+.MedlemskapOverordnetFlexBox h3{
+  font-size:110%;
+  padding-top:40%;
+}
+.MedlemskapOverordnetFlexBox h4{
+  font-size:110%;
+  padding-bottom:20%;   
+}
+.MedlemskapBox1, .MedlemskapBox2, .MedlemskapBox3{
+  background-color:#333333;
+  text-align:center;
+  flex-basis:25%;
+  flex:1;
+  margin-top: 10%;
+  margin-bottom:10%;
+  margin-left:5%;
+  margin-right:5%;
+  border:#7DDF64 1px solid;
+}
+
+.UtlånsstederOverordnetFlexBox h2{
+  padding:4%;
+}
+.UtlånsstederOverordnetFlexBox img{
+  width:80%;
+  padding-top:3%;
+  padding-bottom:15%;
+}
+.UtlånsstederOverordnetFlexBox iframe{
+  width:80%;
+  margin-bottom:10%;
+   
+}
+
+
+
+
+
+.UtlånsstederBox1, .UtlånsstederBox2, .UtlånsstederBox3{
+  background-color:#333333;
+  text-align:center;
+  flex-basis:25%;
+  flex:1;
+  margin-top: 10%;
+  margin-bottom:10%;
+  margin-left:5%;
+  margin-right:5%;
+  border:#7DDF64 1px solid;
+}
+
+
+
+.KjøretøyBox1 , .KjøretøyBox2{
+  
+  border:#7DDF64 1px solid;
+  margin-top: 10%;
+  margin-bottom:0%; 
+  margin-right:5%;
+  
+
+}
+.KjøretøyBox1 , .KjøretøyBox1 li, .KjøretøyBox2, .KjøretøyBox2 li{
+  background-color:#333333;
+  text-align:center;
+  flex-basis:25%;
+  flex:1;
+  margin-left:5%;
+}
+.KjøretøyOverordnetFlexBox h2{
+  padding-top:3%;
+}
+.KjøretøyOverordnetFlexBox img{
+  padding-top:7%;
+  padding-bottom:4%;
+}
+.KjøretøyOverordnetFlexBox li{
+  font-size:120%;
+}
+#test1 {
+  padding-bottom:3%;
+}
+
+.IndexTekst h2{
+  position:absolute;
+  height:100%;
+  top:50%;
+  left:20%;
+  font-size:400%;
+  
+}
+
+#pic1{
+  z-index:-1;
+  position:fixed;
+    padding:0;
+    margin-top:53px;
+
+    top:0;
+    left:0;
+
+    width: 50%;
+    height: 100%;
+
+    background:rgba(255,255,255,0.5);
+}
+#pic2{
+  z-index:-1;
+  position:fixed;
+    padding:0;
+    margin-top:53px;
+
+    top:0;
+    left:50%;
+
+    width: 50%;
+    height: 100%;
+
+    background:rgba(255,255,255,0.5);
 }
 
 /*
- * Hvordan bruke variabler i css:
- *
- * Eksempel, farge paragraf
- *
- * p {
- *   color: var(--foreground);
- * }
- */
+SHAVI har som mål å gjøre utlån av elektrisk kjøretøy til et realistisk og lett tilgjengelig alternativ.
+Med SHAVI abonnement kan du raskt og enkelt låne elektriske biler og båter fra våre sentrale utlånssteder i Oslo, Bergen og Førde.
+*/

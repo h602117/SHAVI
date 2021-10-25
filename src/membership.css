@@ -1,7 +1,5 @@
-
 *{
     text-decoration:none;
-    
     color:#EEEEEE;
     padding:0;
     margin:0;
@@ -9,93 +7,57 @@
     font-weight:lighter;
     
 }
-
 body{
     background-color:#222222;
 }
-
-@media(min-width:768px){
-    .bigboiBox{
-        display:flex;
-       
-    }
-}
-
 .gaffateip{
     position:absolute;
     font-size:1px;
     margin-top:50px;
-    
     padding-right:500000%;
     border-bottom:#7DDF64 1px solid;
-
-    
 }
-
 .topbox .link1 a, .link2 a, .link3 a{
-    
     padding: 5px;
-    font-size:120%;
+    font-size:130%;
 }
-
-
+.link1 a :hover,.link2 a :hover,.link3 a :hover{
+    color:#7DDF64;
+}
 .top{
     position:absolute;
 }
-
-
-.bigboiBox h1{
-    font-size:170%;
-    padding-top:4%;
-}
-.bigboiBox h2{
-    font-size:270%;
-    padding-top:60%;
-}
-.bigboiBox h3{
-    font-size:110%;
-    padding-top:40%;
-}
-.bigboiBox h4{
-    font-size:110%;
-    padding-bottom:20%;   
-}
-
-
 .topbox{
     
     position: absolute;
-    right:2%;
-    top:2%;
+    right:1.2%;
+    top:1.2%;
     display:flex;
-    justify-content: flex-end;
-    
-    
+    justify-content: flex-end; 
 }
-
-.box1{
-    background-color:#333333;
-    text-align:center;
-    flex-basis:25%;
-    flex:1;
-    margin-top: 10%;
-    margin-bottom:10%;
-    margin-left:5%;
-    margin-right:5%;
-    border:#7DDF64 1px solid;
+@media(min-width:768px){
+    .MedlemskapOverordnetFlexBox{
+        display:flex;
+       
+    }
 }
-.box2{
-    background-color:#333333;
-    text-align:center;
-    flex-basis:25%;
-    flex:1;
-    margin-top: 10%;
-    margin-bottom:10%;
-    margin-left:5%;
-    margin-right:5%;
-    border:#7DDF64 1px solid;
+.MedlemskapOverordnetFlexBox h1{
+    font-size:170%;
+    padding-top:4%;
 }
-.box3{
+.MedlemskapOverordnetFlexBox h2{
+    font-size:270%;
+    padding-top:60%;
+}
+.MedlemskapOverordnetFlexBox h3{
+    font-size:110%;
+    padding-top:40%;
+}
+.MedlemskapOverordnetFlexBox h4{
+    font-size:110%;
+    padding-bottom:20%;   
+}
+.MedlemskapBox1, .MedlemskapBox2, .MedlemskapBox3{
     background-color:#333333;
     text-align:center;
     flex-basis:25%;
