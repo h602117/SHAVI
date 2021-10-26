@@ -4,61 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHAVI - Utlånssteder</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
   <body>
-    <div class="gaffateip"><h1> a </h1></div>
     <header>
-      <div class= "top">
       <a href="./index.html"><h1>SHAVI</h1></a>
-    </div>
-      
-
-      
       <nav>
-        <div class="topbox">
-          <div class="link1">
-        <a href="./locations.html"><h>Utlånssteder</h></a>
-      </div>
-        <div class="link2">
-        <a href="./vehicles.html"><h>Kjøretøy</h></a>
-        </div>
-        <div class="link3">
-        <a href="./membership.html"><h>Medlemskap</h></a>
-      </div>
-        </div>
+        <a href="./locations.html">Utlånssteder</a>
+        <span class="nav-sep">|</span>
+        <a href="./vehicles.html">Kjøretøy</a>
+        <span class="nav-sep">|</span>
+        <a href="./membership.html">Medlemskap</a>
       </nav>
-    
     </header>
     <main>
-      <section> 
-
-       <div class="UtlånsstederOverordnetFlexBox"> 
-        <div class="UtlånsstederBox1">
-        
+      <section class="col-3">
         <h2>Marineholmen Bergen</h2>
-        <img src="./img/marineholmen-bergen.jpg" height="210" alt="Marineholmen i Bergen">
-        
-          
-            <iframe  id="gmap-bergen" src="https://maps.google.com/maps?q=marineholmen%20gjestebrygge%20bergen&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        <img class="loc-img" src="./img/marineholmen-bergen.jpg" alt="Marineholmen i Bergen">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe class="map" id="gmap-bergen" src="https://maps.google.com/maps?q=marineholmen%20gjestebrygge%20bergen&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
           </div>
-        
-            <div class="UtlånsstederBox2">
-        
+        </div>
+      </section>
+      <section class="col-3">
         <h2>Oslo ved akerbrygge</h2>
-        <img src="./img/aker-brygge.jpg" height="210" alt="Aker Brygge i Oslo">
-        
-            <iframe id="gmap-oslo" src="https://maps.google.com/maps?q=oslo%20akerbrygge&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        <img class="loc-img" src="./img/aker-brygge.jpg" alt="Aker Brygge i Oslo">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe class="map" id="gmap-oslo" src="https://maps.google.com/maps?q=oslo%20akerbrygge&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
           </div>
-       
-      
-        
-          <div class="UtlånsstederBox3">
-        
+        </div>
+      </section>
+      <section class="col-3">
         <h2>Førde båtklubb</h2>
-        <img src="./img/forde-batklubb.jpg" height="210" alt="Førde Båtklubb">
-       
-            <iframe  id="gmap-forde" src="https://maps.google.com/maps?q=f%C3%B8rde%20b%C3%A5tklubb&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        <img class="loc-img" src="./img/forde-batklubb.jpg" alt="Førde Båtklubb">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe class="map" id="gmap-forde" src="https://maps.google.com/maps?q=f%C3%B8rde%20b%C3%A5tklubb&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
           </div>
         </div>
       </section>
